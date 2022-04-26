@@ -2,27 +2,35 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Advice generator app</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="src/style/style.css">
 </head>
 <body>
-
-  Advice #<!-- Advice ID goes here -->
-
-  "<!-- Advice text goes here -->"
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <main class="main">
+    <div class="advice">
+      <span class="advice__id">
+        Advice #117
+      </span>
+      <blockquote class="advice__quote">
+        <p class="advice__content">
+          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi reprehenderit, nam accusantium nihil labore ducimus sit in quos magni accusamus non nesciunt tempore repellendus, assumenda neque incidunt harum nulla unde?"
+        </p>
+      </blockquote>
+      <div class="advice__divider">
+        <img src="src/images/pattern-divider-mobile.svg" alt="divider">
+      </div>
+      <button class="advice__reroll-button">
+        <img src="src/images/icon-dice.svg" alt="dice">
+      </button>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </footer>
 </body>
 </html>

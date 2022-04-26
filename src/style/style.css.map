@@ -1,0 +1,17 @@
+{
+    "version": 3,
+    "mappings": "AGAA,OAAO,CAAC,iFAAI;ACAZ,AAAA,CAAC;AACD,IAAI;AACJ,IAAI,CAAC;EACH,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CACvB;;AACD,AAAA,IAAI,CAAA;EACF,gBAAgB,EFJA,OAAkB;EEKlC,MAAM,EAAE,KAAK;CACd;;AACD,AAAA,KAAK,CAAA;EACH,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;CACxB;;AEdD,AAAA,OAAO,CAAA;EACH,KAAK,EAAE,GAAG;EACV,gBAAgB,EJCN,OAAkB;EIA5B,aAAa,EAAE,IAAI;CACtB;;AEJD,AAAA,OAAO,CAAA;EACH,KAAK,EAAE,IAAI;EACX,QAAQ,EAAE,QAAQ;EAClB,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;CAC1B;;AACD,AAAA,YAAY,CAAE;EACV,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,MAAM;CACrB;;AACD,AAAA,YAAY,CAAC,CAAC,CAAC;EACX,KAAK,EAAE,OAAkB;CAC5B",
+    "sources": [
+        "../scss/style.scss",
+        "../scss/abstracts/_index.scss",
+        "../scss/abstracts/_variables.scss",
+        "../scss/abstracts/_fonts.scss",
+        "../scss/base/_global.scss",
+        "../scss/components/_index.scss",
+        "../scss/components/_advice.scss",
+        "../scss/components/_reroll-button.scss",
+        "../scss/components/_footer.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}
