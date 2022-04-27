@@ -1,5 +1,33 @@
 .advice{ 
     width: 90%;
-    background-color: $grayishBlue;
+    position: absolute;
+    top: 20vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: $darkGrayishBlue;
     border-radius: 10px;
+    font-family: $manrope;
+    text-align: center;
+    padding: 30px 0 60px 0;
+    &__id{
+        color: $neonGreen;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-size: $id;
+        font-weight: 600;
+    }
+    &__quote{
+        margin: 0 30px;
+    }
+    &__content{
+        color: $lightCyan;
+        font-size: $quote;
+        font-weight: 800;
+    }
+    &__divider{
+       & img{
+           width: 90%;
+       }
+    }
 }

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap");
 *,
 html,
 body {
@@ -9,7 +9,7 @@ body {
 }
 
 body {
-  background-color: #323a49;
+  background-color: #1f2632;
   height: 100vh;
 }
 
@@ -24,8 +24,86 @@ body {
 
 .advice {
   width: 90%;
-  background-color: #4e5d73;
+  position: absolute;
+  top: 20vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+  background-color: #323a49;
   border-radius: 10px;
+  font-family: "manrope", sans-serif;
+  text-align: center;
+  padding: 30px 0 60px 0;
+}
+
+.advice__id {
+  color: #52ffa8;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.advice__quote {
+  margin: 0 30px;
+}
+
+.advice__content {
+  color: #cee3e9;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.advice__divider img {
+  width: 90%;
+}
+
+.advice__reroll-button {
+  z-index: 2;
+  background-color: #52ffa8;
+  border: none;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+  position: absolute;
+  bottom: 0;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+  cursor: pointer;
+}
+
+.advice__reroll-button::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 0;
+  -webkit-box-shadow: 0px 0px 25px 0px #52ffa8;
+          box-shadow: 0px 0px 25px 0px #52ffa8;
+  opacity: 0;
+  -webkit-transition: opacity .3s ease-in-out;
+  transition: opacity .3s ease-in-out;
+}
+
+.advice__reroll-button:hover::after {
+  opacity: 1;
 }
 
 .footer {
