@@ -7,7 +7,7 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 
 ### Links
 
-- Live Site URL: [goomel.github.io/advice-generator/](goomel.github.io/advice-generator/)
+- Live Site URL: [goomel.github.io/advice-generator/](https://goomel.github.io/advice-generator/)
 
 ### Built with
 
