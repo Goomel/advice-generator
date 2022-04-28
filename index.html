@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="src/images/favicon-32x32.png">
   <title>Frontend Mentor | Advice generator app</title>
   <link rel="stylesheet" href="src/style/style.css">
 </head>
@@ -16,9 +16,10 @@
         <p class="advice__content">
         </p>
       </blockquote>
-      <div class="advice__divider">
+      <picture class="advice__divider">
+        <source media="(min-width: 1024px)" srcset="src/images/pattern-divider-desktop.svg">
         <img src="src/images/pattern-divider-mobile.svg" alt="divider">
-      </div>
+      </picture>
       <button class="advice__reroll-button">
         <img src="src/images/icon-dice.svg" alt="dice">
       </button>
